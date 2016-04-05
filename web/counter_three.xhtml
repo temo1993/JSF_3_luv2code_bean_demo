@@ -7,16 +7,16 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
-    <title>Counter One - Session Scope Test</title>
+    <title>Counter Three - Request Scope Test</title>
 </h:head>
 <h:body>
-<h3>Counter One - Session Scope Test</h3>
+<h3>Counter Three - Request Scope Test</h3>
     <hr/>
-    <p>Counter value: <strong>#{counterOne.value}</strong></p>
+    <p>Counter value: <strong>#{counterThree.value}</strong></p>
     <br/>
     <br/>
         <h:form>
-            <h:commandButton value="Increment" action="#{counterOne.increment()}"/>
+            <h:commandButton value="Increment" action="#{counterThree.increment()}"/>
         </h:form>
 </h:body>
 </html>
